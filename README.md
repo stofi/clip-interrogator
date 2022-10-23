@@ -1,9 +1,26 @@
 # clip-interrogator
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pharmapsychotic/clip-interrogator/blob/main/clip_interrogator.ipynb) Version 2
+fork of https://github.com/pharmapsychotic/clip-interrogator
+ported to python to run in the terminal
+added batch processing feature
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pharmapsychotic/clip-interrogator/blob/v1/clip_interrogator.ipynb) Version 1
+## Setup
+  Setup:
+  ```bash 
+  python setup.py 
+  ```
 
+## Usage
+  Run:
+  
+  ```bash 
+    python cli.py -i https://i.ytimg.com/vi/0k1xU4Kp5Go/maxresdefault.jpg
+  ```
 
-The CLIP Interrogator uses the OpenAI CLIP models to test a given image against a variety of artists, mediums, and styles to study how the different models see the content of the image. It also combines the results with BLIP caption to suggest a text prompt to create more images similar to what was given.
+  Options:
+  `-i` URL or path to image to interrogate
+  `-f` File with a list of images to interrogate
+  `-o` Output file to save prompts to, defaults to stdout
+  `-h, --help` show this help message and exit
+
 
