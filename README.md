@@ -1,8 +1,6 @@
 # clip-interrogator
 
-fork of https://github.com/pharmapsychotic/clip-interrogator
-ported to python to run in the terminal
-added batch processing feature
+This is a fork of https://github.com/pharmapsychotic/clip-interrogator that has been ported to python and can be run in the terminal. It has also been given the ability to process batches of images.
 
 ## Setup
   Setup:
