@@ -18,6 +18,6 @@ This is a fork of https://github.com/pharmapsychotic/clip-interrogator that has 
   - `-i` URL or path to image to interrogate
   - `-f` File with a list of images to interrogate
   - `-o` Output file to save prompts to, defaults to stdout
-  - `-h, --help` show this help message and exit
+
 
 
