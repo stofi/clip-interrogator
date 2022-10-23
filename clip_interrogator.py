@@ -188,7 +188,7 @@ def interrogate(image):
 
     return best_prompt
 
-DATA_PATH = 'clip-interrogator/data'
+DATA_PATH = 'data'
 
 sites = ['Artstation', 'behance', 'cg society', 'cgsociety', 'deviantart', 'dribble', 'flickr', 'instagram', 'pexels', 'pinterest', 'pixabay', 'pixiv', 'polycount', 'reddit', 'shutterstock', 'tumblr', 'unsplash', 'zbrush central']
 trending_list = [site for site in sites]
