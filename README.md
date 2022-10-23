@@ -11,7 +11,7 @@ This is a fork of https://github.com/pharmapsychotic/clip-interrogator that has 
   ### Run:
   
   ```bash 
-    python cli.py -i https://i.ytimg.com/vi/0k1xU4Kp5Go/maxresdefault.jpg
+python cli.py -i https://i.ytimg.com/vi/0k1xU4Kp5Go/maxresdefault.jpg
   ```
 
   ### Options:
